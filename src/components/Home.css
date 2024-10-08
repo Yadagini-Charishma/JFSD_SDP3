@@ -1,0 +1,82 @@
+  .home {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .home-header {
+    text-align: center;
+    padding: 50px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+  .home-header h1 {
+    font-size: 3rem;
+  }
+  
+  .home-header p {
+    font-size: 1.2rem;
+  }
+  
+  .section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .about-us-image {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+  }
+  
+  .services {
+    background-color: #f9f9f9;
+  }
+  
+  .service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .service-card {
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .service-card img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .companies {
+    background-color: #fff;
+  }
+  
+  .company-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .company-logo {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+  }
+  
+  .home-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  .home-footer p {
+    margin: 0;
+  }
+  

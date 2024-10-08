@@ -1,0 +1,141 @@
+/* Final ContactUs CSS */
+
+.smooth-scroll {
+    scroll-behavior: smooth;
+  }
+  
+  .resized-map {
+    height: 60vh;  /* Fixed height to fit within one page */
+    width: 100%;
+  }
+  
+  .contact-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-info {
+    width: 45%;  /* Contact Information: 45% of the container */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .contact-info h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #007BFF;
+  }
+  
+  .contact-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .contact-info a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  .contact-form {
+    width: 45%;  /* Contact Form: 45% of the container */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"] {
+    width: 48%;  /* Same width for name and email fields */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .contact-form input[type="text"]:focus,
+  .contact-form input[type="email"]:focus,
+  .contact-form textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  .contact-form input[type="text"].full-width {
+    width: 100%;  /* Full width for the subject field */
+  }
+  
+  .contact-form textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .contact-form button {
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  #contactSection {
+    padding: 20px 0;
+  }
+  
+  .title-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .title-section h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .title-section h2 {
+    font-size: 20px;
+    color: #777;
+  }
+  
